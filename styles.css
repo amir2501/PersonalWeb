@@ -8,6 +8,10 @@ body {
 
 .col-12 {
   background-color: #0f4c75;
+  color: #bbe1fa;
+}
+.sky {
+  color: #1b262c;
 }
 .byhand {
   font-family: "Parisienne", cursive;
