@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  transition: all 0.3s;
 }
 body {
   background-color: #1b262c;
@@ -76,6 +77,7 @@ footer {
 @media (max-width: 789px) {
   .mountain {
     width: 60vw;
+    display: none;
   }
   .topright {
     position: relative;
@@ -90,5 +92,31 @@ footer {
   }
   .jack {
     width: 300px;
+  }
+  .col-12 {
+    background-color: #3ec1d3;
+    color: #f6f7d7;
+  }
+  footer {
+    background-color: #3ec1d3;
+  }
+  .sky {
+    color: #f6f7d7;
+  }
+  body {
+    background-color: #f6f7d7;
+  }
+  .textcolor {
+    color: #ff165d;
+  }
+  hr {
+    background-color: #1b262c;
+  }
+  .H2 {
+    color: #ff9a00;
+  }
+
+  img {
+    border-radius: 20px;
   }
 }
